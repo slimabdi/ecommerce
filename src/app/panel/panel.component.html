@@ -1,0 +1,8 @@
+
+<div *ngIf="offersExist === 0" class="alert alert-info">Your Cart is Empty.</div>
+
+<ul *ngIf="offersExist> 0" class="list-group">
+  <li class="list-group-item">
+    <app-cart-item [Discount]="Discount" ></app-cart-item>
+  </li>
+</ul>
