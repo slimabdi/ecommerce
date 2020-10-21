@@ -56,14 +56,6 @@ describe('BooksItemsComponent', () => {
       expect(apiService).toBeTruthy();
   }));
 
-/*   it('should keep input and h2 in sync', () => {
-    const inputDe = fixture.debugElement.query(By.css('input[name="searchBook"]'));
-    console.log(inputDe)
-    const inputEl = inputDe.nativeElement;
-    inputEl.value = 'Updated Task 1';
-    inputEl.dispatchEvent(new Event('input'));
-    fixture.detectChanges();
-  }); */
 
   it('should show TEST INPUT', () => {
     component.booktList = [{

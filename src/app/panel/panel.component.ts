@@ -33,7 +33,6 @@ export class PanelComponent implements OnInit {
           this.Discount = [this.Offers['offers'], this.booksPrices];
         });
       } else {
-        // clear bookId when empty object book received
         this.booksId = [];
       }
     });
